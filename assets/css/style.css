@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #8e44ad;
+    font-family: Arial, sans-serif;
+  }
+  
+  .counter-container {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .counter {
+    font-size: 3rem;
+    background: #8e44ad;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    
+  }
+  
